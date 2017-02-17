@@ -14,11 +14,11 @@ insights:
 
 
 # Github repos
-github-repo-nutch:
+github-repo:
   service_id: githubpublic
   parameters:
-    repo_name: "{{github.parameters.open-source-repo_name}}"
-    repo_url: "{{github.parameters.open-source-repo_URL}}"
+    repo_name: "{{name}}"
+    repo_url: "{{repository}}"
 #    type: new | clone | link | fork
 #    repo_name: "Nutch"
 #    repo_url: "https://github.com/apache/nutch.git"
