@@ -18,7 +18,8 @@ github-repo:
   service_id: githubpublic
   parameters:
     repo_name: "{{name}}"
-    repo_url: "{{repository}}"
+    repo_url: ""
+    #repo_url: "{{repository}}"
 #    type: new | clone | link | fork
 #    repo_name: "Nutch"
 #    repo_url: "https://github.com/apache/nutch.git"
