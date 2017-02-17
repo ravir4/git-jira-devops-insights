@@ -2,7 +2,7 @@
 name: "DevOps Insights template for Git projects"
 description: "With this toolchain, you can deploy a toolchain containing DevOps Insights and Github. \n\nTo get started, click **Create**."
 version: 0.1
-image: data:image/svg;base64,$file(devops-insights.svg,base64)
+#image: data:image/svg;base64,$file(devops-insights.svg,base64)
 required: 
  - github-repo
  - insights
