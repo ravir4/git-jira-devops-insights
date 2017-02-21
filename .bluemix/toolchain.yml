@@ -2,7 +2,10 @@
 name: "DevOps Insights template for Git and Jira  projects"
 description: "With this toolchain, you can deploy a toolchain containing Github and Jira projects with DevOps Insights. \n\nTo get started, click **Create**."
 version: 0.1
-#image: data:image/svg;base64,$file(devops-insights.svg,base64)
+default_locale: en
+locales:
+  $ref: locales.yml
+#image: data:image/svg+xml;base64,$file(toolchain.svg?localize,base64)
 required: 
  - github-repo
  - insights
